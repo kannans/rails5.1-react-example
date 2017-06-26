@@ -51,4 +51,4 @@ Things you may want to cover:
 
    `bin/server`
 
-  Access base from http://0.0.0.0:8080/ or http://localhost:8080
+  Access base from http://localhost:5000
