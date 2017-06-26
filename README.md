@@ -28,16 +28,17 @@ Things you may want to cover:
   ```
 
   Create `Procfile` with
-  `web: bundle exec puma -p $PORT%`
+ 
+  ```
+  web: bundle exec puma -p $PORT%
+  ```
 
 * Database creation
 
-* Database initialization
+  `rails db:setup`
 
-* How to run the test suite
+* Run application
 
-* Services (job queues, cache servers, search engines, etc.)
+   `bin/server`
 
-* Deployment instructions
-
-* ...
+  Access base from http://0.0.0.0:8080/ or http://localhost:8080
