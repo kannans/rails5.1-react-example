@@ -26,7 +26,14 @@ Things you may want to cover:
   bundle exec foreman start -f Procfile.dev
   ```
 
-  Create `Procfile` with
+  Create `Procfile.dev` for local development server configuration
+  ```sh
+   web: bundle exec rails s
+   # watcher: ./bin/webpack-watcher
+   webpacker: ./bin/webpack-dev-serve
+  ```
+
+  For heroku production Create `Procfile` with
  
   ```
   web: bundle exec puma -p $PORT%
