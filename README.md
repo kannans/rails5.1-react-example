@@ -41,6 +41,10 @@ Things you may want to cover:
 
 * Database creation
 
+  `rails db:create && rails db:migrate` 
+  
+   or 
+  
   `rails db:setup`
 
 * Run application
