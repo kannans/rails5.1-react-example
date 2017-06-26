@@ -6,23 +6,28 @@ application up and running.
 Things you may want to cover:
 
 * Ruby version
-  2.4 +
+
+   `ruby 2.4.+`
+   
 * System dependencies
+  ```
   rails 5.1
   puma
   foreman
   npm
   yarn
+  ```
 
 * Configuration
-  create server run file on bin folder
+  Create server run file on bin folder
+  
   ```sh
   #!/bin/bash -i
   bundle install
   bundle exec foreman start -f Procfile.dev
   ```
 
-  create Procfile with `
+  Create `Procfile` with
   `web: bundle exec puma -p $PORT%`
 
 * Database creation
