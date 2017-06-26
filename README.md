@@ -1,7 +1,6 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+ A starter application for rails 5.1 with ReactJS
 
 Things you may want to cover:
 
@@ -19,7 +18,7 @@ Things you may want to cover:
   ```
 
 * Configuration
-  Create server run file on bin folder
+  Create a `server` file at `bin` folder from rails directory and with following code
   
   ```sh
   #!/bin/bash -i
